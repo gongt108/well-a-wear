@@ -5,6 +5,7 @@ export default function CalendarScreen() {
   return (
     <ScrollView style={globalStyles.container}>
       <Text style={globalStyles.title}>Calendar</Text>
+      <Text style={globalStyles.empty}>No upcoming events.</Text>
 
     </ScrollView>
   );
